@@ -1,0 +1,10 @@
+**/.DS_Store
+*.m~
+*.swp
+*.pdf
+*.asv
+/personal/*
+/test/*
+test_*
+notes.txt
+*.mat
