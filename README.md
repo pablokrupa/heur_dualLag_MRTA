@@ -22,3 +22,5 @@ The package contains scripts with names `results_n_xx.m`, where `xx` is some int
 These script execute examples solving random MRTA problems of increasing dimension, where `xx` indicates the number of locations of the MRTA problem.
 The results of these scrips are saved in `/results`, and can be analyzed by executing `analyze_rand_batch.m` (assigning to `get_n` to the value of `xx` to be analyzed). 
 
+> [!NOTE]
+> This repository serves as a replication package for a research work under revision titled "A distributed dual Lagrangian MILP method with heuristic dual update for multi-robot task allocation". The numerical results can be reproduced by executing the `results_n_xx.m` scripts. Use `analyze_rand_batch.m` to view the results for each `xx`.
